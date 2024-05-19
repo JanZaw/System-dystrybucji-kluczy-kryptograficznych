@@ -1,0 +1,1 @@
+System Dystrybucji Kluczy Kryptograficznych
