@@ -1,0 +1,19 @@
+Funkcja generate_key wykonuję produkcje kluczy publicznych oraz prywatnych dla użytkowników przy użyciu algorytmy Diffie-Hellman
+
+
+Funkcja authorize służy do sprawdzenia czy użytkownik jest autoryzowany do wymiany kluczy z innym użytkownikiem
+
+
+shared_secret to funkcja która tworzy wspólny tajny klucz pomiędzy użytkownikami używając klucz prywatny oraz publiczny drugiego użytkownika z którym robią wymianę kluczy
+
+
+register_user_public_key rejestruje klucz publiczny użytkownika w bazie danych
+
+
+verify_user służy do sprawdzenia czy użytkownik jest zweryfikowany oraz czy ma zweryfikowany swój klucz publiczny
+
+
+central_authorization jest to funkcja która sprawdza czy oboje użytkowników  jest autoryzowanych pomiędzy sobą by mogli wymienić klucze
+
+
+Funkcja excahnge_keys jest funkcją w której dobiega proces wymiany kluczy pomiędzy użytkownikami jeśli oboje użytkownicy są zweryfikowani oraz wzajemnie autoryzowani
